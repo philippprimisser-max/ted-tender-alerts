@@ -1,0 +1,731 @@
+{
+ "notices": [
+  {
+   "title-proc": {
+    "deu": "MA 9 – Digitalisierung 2027-2031"
+   },
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-17+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "690555-2026",
+   "classification-cpv": [
+    "72500000",
+    "72500000"
+   ],
+   "publication-date": "2026-10-07+02:00",
+   "buyer-name": {
+    "deu": [
+     "Magistrat der Stadt Wien - Magistratsabteilung 9"
+    ]
+   },
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/690555-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/690555-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/690555-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/690555-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/690555-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/690555-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/690555-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/690555-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/690555-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/690555-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/690555-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/690555-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/690555-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/690555-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/690555-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/690555-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/690555-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/690555-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/690555-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/690555-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/690555-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/690555-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/690555-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/690555-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/690555-2026/pdf"
+    },
+    "pdfs": {
+     "DEU": "https://ted.europa.eu/de/notice/690555-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/690555-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/690555-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/690555-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/690555-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/690555-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/690555-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/690555-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/690555-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/690555-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/690555-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/690555-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/690555-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/690555-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/690555-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/690555-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/690555-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/690555-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/690555-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/690555-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/690555-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/690555-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/690555-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/690555-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/690555-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/690555-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/690555-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/690555-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/690555-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/690555-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/690555-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/690555-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/690555-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/690555-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/690555-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/690555-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/690555-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/690555-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/690555-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/690555-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/690555-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/690555-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/690555-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/690555-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/690555-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/690555-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/690555-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/690555-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/690555-2026/html"
+    }
+   },
+   "buyer-country": [
+    "AUT"
+   ],
+   "notice-title": {
+    "hun": "Ausztria – Számítógépekkel kapcsolatos szolgáltatások – MA 9 – Digitalisierung 2027-2031",
+    "lav": "Austrija – Datorsaistītie pakalpojumi – MA 9 – Digitalisierung 2027-2031",
+    "swe": "Österrike – Datortjänster – MA 9 – Digitalisierung 2027-2031",
+    "gle": "An Ostair – Computer-related services – MA 9 – Digitalisierung 2027-2031",
+    "ell": "Αυστρία – Υπηρεσίες πληροφορικής – MA 9 – Digitalisierung 2027-2031",
+    "spa": "Austria – Servicios informáticos – MA 9 – Digitalisierung 2027-2031",
+    "est": "Austria – Arvutiga seotud teenused – MA 9 – Digitalisierung 2027-2031",
+    "nld": "Oostenrijk – Informaticadiensten – MA 9 – Digitalisierung 2027-2031",
+    "fin": "Itävalta – Tietokonepalvelut – MA 9 – Digitalisierung 2027-2031",
+    "pol": "Austria – Komputerowe usługi pokrewne – MA 9 – Digitalisierung 2027-2031",
+    "hrv": "Austrija – Usluge povezane s računalom – MA 9 – Digitalisierung 2027-2031",
+    "ces": "Rakousko – Výpočetní služby – MA 9 – Digitalisierung 2027-2031",
+    "dan": "Østrig – Servicevirksomhed i forbindelse med datamater – MA 9 – Digitalisierung 2027-2031",
+    "ron": "Austria – Servicii informatice – MA 9 – Digitalisierung 2027-2031",
+    "por": "Áustria – Serviços relacionados com a informática – MA 9 – Digitalisierung 2027-2031",
+    "slk": "Rakúsko – Služby súvisiace s počítačmi – MA 9 – Digitalisierung 2027-2031",
+    "fra": "Autriche – Services informatiques – MA 9 – Digitalisierung 2027-2031",
+    "mlt": "L-Awstrija – Servizzi relatati mal-kompjuter – MA 9 – Digitalisierung 2027-2031",
+    "deu": "Österreich – Datenverarbeitungsdienste – MA 9 – Digitalisierung 2027-2031",
+    "lit": "Austrija – Su kompiuteriais susijusios paslaugos – MA 9 – Digitalisierung 2027-2031",
+    "ita": "Austria – Servizi informatici – MA 9 – Digitalisierung 2027-2031",
+    "bul": "Aвcтpия – Услуги, свързани с използване на компютри – MA 9 – Digitalisierung 2027-2031",
+    "slv": "Avstrija – Z računalniki povezane storitve – MA 9 – Digitalisierung 2027-2031",
+    "eng": "Austria – Computer-related services – MA 9 – Digitalisierung 2027-2031"
+   },
+   "buyer-city": {
+    "mul": [
+     "Wien"
+    ]
+   }
+  },
+  {
+   "title-proc": {
+    "deu": "Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung"
+   },
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-06+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "691237-2026",
+   "classification-cpv": [
+    "72322000",
+    "79340000",
+    "75112100",
+    "72322000",
+    "79340000",
+    "75112100"
+   ],
+   "publication-date": "2026-10-07+02:00",
+   "buyer-name": {
+    "deu": [
+     "Amt der oberösterreichischen Landesregierung - Abteilung Naturschutz"
+    ]
+   },
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/691237-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/691237-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/691237-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/691237-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/691237-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/691237-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/691237-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/691237-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/691237-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/691237-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/691237-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/691237-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/691237-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/691237-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/691237-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/691237-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/691237-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/691237-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/691237-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/691237-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/691237-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/691237-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/691237-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/691237-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/691237-2026/pdf"
+    },
+    "pdfs": {
+     "DEU": "https://ted.europa.eu/de/notice/691237-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/691237-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/691237-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/691237-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/691237-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/691237-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/691237-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/691237-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/691237-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/691237-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/691237-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/691237-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/691237-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/691237-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/691237-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/691237-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/691237-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/691237-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/691237-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/691237-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/691237-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/691237-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/691237-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/691237-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/691237-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/691237-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/691237-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/691237-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/691237-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/691237-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/691237-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/691237-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/691237-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/691237-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/691237-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/691237-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/691237-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/691237-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/691237-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/691237-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/691237-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/691237-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/691237-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/691237-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/691237-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/691237-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/691237-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/691237-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/691237-2026/html"
+    }
+   },
+   "buyer-country": [
+    "AUT"
+   ],
+   "notice-title": {
+    "hun": "Ausztria – Adatfeldolgozási/adatkezelési szolgáltatások – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "lav": "Austrija – Datu pārvaldīšanas pakalpojumi – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "swe": "Österrike – Datahantering – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "gle": "An Ostair – Data management services – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "ell": "Αυστρία – Υπηρεσίες διαχείρισης δεδομένων – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "spa": "Austria – Servicios de gestión de datos – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "est": "Austria – Andmehaldusteenused – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "nld": "Oostenrijk – Gegevensbeheerdiensten – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "fin": "Itävalta – Tiedonhallinta – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "pol": "Austria – Usługi zarządzania danymi – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "hrv": "Austrija – Usluge upravljanja podacima – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "ces": "Rakousko – Správa dat – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "dan": "Østrig – Dataadministration – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "ron": "Austria – Servicii de gestionare a datelor – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "por": "Áustria – Serviços de gestão de dados – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "slk": "Rakúsko – Správa údajov – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "fra": "Autriche – Services de gestion de données – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "mlt": "L-Awstrija – Servizzi ta' l-amministrazzjoni tad-data – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "deu": "Österreich – Datenverwaltung – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "lit": "Austrija – Duomenų valdymo paslaugos – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "ita": "Austria – Servizi di gestione dati – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "bul": "Aвcтpия – Услуги по управление на данни – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "slv": "Avstrija – Storitve upravljanja podatkov – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung",
+    "eng": "Austria – Data management services – Naturschauspiel 2027-2028 - Datenverwaltung, Vermarktung und Verrechnung von Oberösterreichs erfolgreichster Plattform für Naturvermittlung"
+   },
+   "buyer-city": {
+    "mul": [
+     "Linz"
+    ]
+   }
+  },
+  {
+   "title-proc": {
+    "deu": "Softwarelösung: Nachhaltigkeitsmanagement"
+   },
+   "notice-type": "cn-standard",
+   "publication-number": "685705-2026",
+   "classification-cpv": [
+    "72260000",
+    "72268000",
+    "72260000"
+   ],
+   "publication-date": "2026-10-06+02:00",
+   "buyer-name": {
+    "deu": [
+     "KELAG-Kärntner Elektrizitäts-Aktiengesellschaft und weitere Auftraggeber gemäß Ausschreibungsunterlagen"
+    ]
+   },
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/685705-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/685705-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/685705-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/685705-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/685705-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/685705-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/685705-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/685705-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/685705-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/685705-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/685705-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/685705-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/685705-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/685705-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/685705-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/685705-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/685705-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/685705-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/685705-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/685705-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/685705-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/685705-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/685705-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/685705-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/685705-2026/pdf"
+    },
+    "pdfs": {
+     "DEU": "https://ted.europa.eu/de/notice/685705-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/685705-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/685705-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/685705-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/685705-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/685705-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/685705-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/685705-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/685705-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/685705-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/685705-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/685705-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/685705-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/685705-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/685705-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/685705-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/685705-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/685705-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/685705-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/685705-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/685705-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/685705-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/685705-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/685705-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/685705-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/685705-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/685705-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/685705-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/685705-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/685705-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/685705-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/685705-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/685705-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/685705-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/685705-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/685705-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/685705-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/685705-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/685705-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/685705-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/685705-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/685705-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/685705-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/685705-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/685705-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/685705-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/685705-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/685705-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/685705-2026/html"
+    }
+   },
+   "buyer-country": [
+    "AUT"
+   ],
+   "notice-title": {
+    "hun": "Ausztria – Szoftverrel kapcsolatos szolgáltatások – Softwarelösung: Nachhaltigkeitsmanagement",
+    "lav": "Austrija – Ar programmatūru saistītie pakalpojumi – Softwarelösung: Nachhaltigkeitsmanagement",
+    "swe": "Österrike – Programrelaterade tjänster – Softwarelösung: Nachhaltigkeitsmanagement",
+    "gle": "An Ostair – Software-related services – Softwarelösung: Nachhaltigkeitsmanagement",
+    "ell": "Αυστρία – Υπηρεσίες σχετιζόμενες με λογισμικά – Softwarelösung: Nachhaltigkeitsmanagement",
+    "spa": "Austria – Servicios relacionados con el software – Softwarelösung: Nachhaltigkeitsmanagement",
+    "est": "Austria – Tarkvaraga seotud teenused – Softwarelösung: Nachhaltigkeitsmanagement",
+    "nld": "Oostenrijk – Diensten in verband met software – Softwarelösung: Nachhaltigkeitsmanagement",
+    "fin": "Itävalta – Ohjelmistoihin liittyvät palvelut – Softwarelösung: Nachhaltigkeitsmanagement",
+    "pol": "Austria – Usługi w zakresie oprogramowania – Softwarelösung: Nachhaltigkeitsmanagement",
+    "hrv": "Austrija – Usluge povezane s programskom podrškom – Softwarelösung: Nachhaltigkeitsmanagement",
+    "ces": "Rakousko – Služby programového vybavení – Softwarelösung: Nachhaltigkeitsmanagement",
+    "dan": "Østrig – Programmelrelaterede tjenester – Softwarelösung: Nachhaltigkeitsmanagement",
+    "ron": "Austria – Servicii de software – Softwarelösung: Nachhaltigkeitsmanagement",
+    "por": "Áustria – Serviços relacionados com software – Softwarelösung: Nachhaltigkeitsmanagement",
+    "slk": "Rakúsko – Služby súvisiace so softvérom – Softwarelösung: Nachhaltigkeitsmanagement",
+    "fra": "Autriche – Services relatifs aux logiciels – Softwarelösung: Nachhaltigkeitsmanagement",
+    "mlt": "L-Awstrija – Servizzi relatati mas-software – Softwarelösung: Nachhaltigkeitsmanagement",
+    "deu": "Österreich – Dienstleistungen in Verbindung mit Software – Softwarelösung: Nachhaltigkeitsmanagement",
+    "lit": "Austrija – Su programine įranga susijusios paslaugos – Softwarelösung: Nachhaltigkeitsmanagement",
+    "ita": "Austria – Servizi connessi al software – Softwarelösung: Nachhaltigkeitsmanagement",
+    "bul": "Aвcтpия – Услуги, свързани със софтуерни продукти – Softwarelösung: Nachhaltigkeitsmanagement",
+    "slv": "Avstrija – Storitve, povezane s programsko opremo – Softwarelösung: Nachhaltigkeitsmanagement",
+    "eng": "Austria – Software-related services – Softwarelösung: Nachhaltigkeitsmanagement"
+   },
+   "buyer-city": {
+    "mul": [
+     "Klagenfurt"
+    ]
+   }
+  },
+  {
+   "title-proc": {
+    "deu": "DIGIT- Bereitstellen von diversen IT-Dienstleistungen"
+   },
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-04+01:00",
+    "2026-11-04+01:00",
+    "2026-11-04+01:00",
+    "2026-11-04+01:00",
+    "2026-11-04+01:00",
+    "2026-11-04+01:00",
+    "2026-11-04+01:00",
+    "2026-11-04+01:00",
+    "2026-11-04+01:00",
+    "2026-11-04+01:00",
+    "2026-11-04+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "688936-2026",
+   "classification-cpv": [
+    "72000000",
+    "72262000",
+    "72266000",
+    "72250000",
+    "72253000",
+    "72000000",
+    "72000000",
+    "72000000",
+    "72000000",
+    "72000000",
+    "72000000",
+    "72000000",
+    "72000000",
+    "72000000",
+    "72000000",
+    "72000000"
+   ],
+   "publication-date": "2026-10-06+02:00",
+   "buyer-name": {
+    "deu": [
+     "Oberösterreichische Gesundheitsholding GmbH und Tochterunternehmen"
+    ]
+   },
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/688936-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/688936-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/688936-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/688936-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/688936-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/688936-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/688936-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/688936-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/688936-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/688936-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/688936-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/688936-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/688936-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/688936-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/688936-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/688936-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/688936-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/688936-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/688936-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/688936-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/688936-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/688936-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/688936-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/688936-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/688936-2026/pdf"
+    },
+    "pdfs": {
+     "DEU": "https://ted.europa.eu/de/notice/688936-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/688936-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/688936-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/688936-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/688936-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/688936-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/688936-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/688936-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/688936-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/688936-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/688936-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/688936-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/688936-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/688936-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/688936-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/688936-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/688936-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/688936-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/688936-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/688936-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/688936-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/688936-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/688936-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/688936-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/688936-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/688936-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/688936-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/688936-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/688936-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/688936-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/688936-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/688936-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/688936-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/688936-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/688936-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/688936-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/688936-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/688936-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/688936-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/688936-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/688936-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/688936-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/688936-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/688936-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/688936-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/688936-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/688936-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/688936-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/688936-2026/html"
+    }
+   },
+   "buyer-country": [
+    "AUT"
+   ],
+   "notice-title": {
+    "hun": "Ausztria – IT-szolgáltatások: tanácsadás, szoftverfejlesztés, internet és támogatás – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "lav": "Austrija – IT pakalpojumi konsultēšana, programmatūras izstrāde, internets un atbalsts – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "swe": "Österrike – IT-tjänster: konsultverksamhet, programvaruutveckling, Internet och stöd – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "gle": "An Ostair – IT services: consulting, software development, Internet and support – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "ell": "Αυστρία – Υπηρεσίες τεχνολογίας των πληροφοριών: παροχή συμβουλών, ανάπτυξη λογισμικού, Διαδίκτυο και υποστήριξη – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "spa": "Austria – Servicios TI: consultoría, desarrollo de software, Internet y apoyo – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "est": "Austria – IT-teenused: nõuande-, tarkvaraarendus-, Interneti- ja tugiteenused – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "nld": "Oostenrijk – IT-diensten: adviezen, softwareontwikkeling, internet en ondersteuning – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "fin": "Itävalta – Tietotekniset palvelut: neuvonta, ohjelmistojen kehittäminen, Internet ja tuki – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "pol": "Austria – Usługi informatyczne: konsultacyjne, opracowywania oprogramowania, internetowe i wsparcia – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "hrv": "Austrija – Usluge informacijske tehnologije: savjetovanje, razvoj programske podrške, internet i podrška – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "ces": "Rakousko – Informační technologie: poradenství, vývoj programového vybavení, internet a podpora – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "dan": "Østrig – It-tjenester: rådgivning, programmeludvikling, internet og support – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "ron": "Austria – Servicii IT: consultanţă, dezvoltare de software, internet şi asistenţă – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "por": "Áustria – Serviços de TI: consultoria, desenvolvimento de software, Internet e apoio – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "slk": "Rakúsko – Služby informačných technológií: konzultácie, vývoj softvéru, internet a podpora – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "fra": "Autriche – Services de technologies de l'information, conseil, développement de logiciels, internet et appui – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "mlt": "L-Awstrija – Servizzi ta' IT: konsulenza, żvilupp ta' softwer, Internet u appoġġ – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "deu": "Österreich – IT-Dienste: Beratung, Software-Entwicklung, Internet und Hilfestellung – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "lit": "Austrija – IT paslaugos: konsultavimas, programinės įrangos kūrimas, internetas ir aptarnavimo paslaugos – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "ita": "Austria – Servizi informatici: consulenza, sviluppo di software, Internet e supporto – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "bul": "Aвcтpия – ИТ услуги: консултации, разработване на софтуер, Интернет и поддръжка – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "slv": "Avstrija – Storitve informacijske tehnologije: svetovanje, razvoj programske opreme, internet in podpora – DIGIT- Bereitstellen von diversen IT-Dienstleistungen",
+    "eng": "Austria – IT services: consulting, software development, Internet and support – DIGIT- Bereitstellen von diversen IT-Dienstleistungen"
+   },
+   "buyer-city": {
+    "mul": [
+     "Linz"
+    ]
+   }
+  },
+  {
+   "title-proc": {
+    "deu": "Kentico CMS Implementierungspartner"
+   },
+   "notice-type": "cn-standard",
+   "publication-number": "683963-2026",
+   "classification-cpv": [
+    "72263000",
+    "72224100",
+    "72263000"
+   ],
+   "publication-date": "2026-10-05+02:00",
+   "buyer-name": {
+    "deu": [
+     "KELAG-Kärntner Elektrizitäts-Aktiengesellschaft"
+    ]
+   },
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/683963-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/683963-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/683963-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/683963-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/683963-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/683963-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/683963-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/683963-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/683963-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/683963-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/683963-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/683963-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/683963-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/683963-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/683963-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/683963-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/683963-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/683963-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/683963-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/683963-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/683963-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/683963-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/683963-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/683963-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/683963-2026/pdf"
+    },
+    "pdfs": {
+     "DEU": "https://ted.europa.eu/de/notice/683963-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/683963-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/683963-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/683963-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/683963-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/683963-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/683963-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/683963-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/683963-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/683963-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/683963-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/683963-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/683963-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/683963-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/683963-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/683963-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/683963-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/683963-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/683963-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/683963-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/683963-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/683963-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/683963-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/683963-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/683963-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/683963-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/683963-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/683963-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/683963-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/683963-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/683963-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/683963-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/683963-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/683963-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/683963-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/683963-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/683963-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/683963-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/683963-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/683963-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/683963-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/683963-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/683963-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/683963-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/683963-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/683963-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/683963-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/683963-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/683963-2026/html"
+    }
+   },
+   "buyer-country": [
+    "AUT"
+   ],
+   "notice-title": {
+    "hun": "Ausztria – Szoftvermegvalósítási szolgáltatások – Kentico CMS Implementierungspartner",
+    "lav": "Austrija – Programmatūras ieviešanas pakalpojumi – Kentico CMS Implementierungspartner",
+    "swe": "Österrike – Programimplementation – Kentico CMS Implementierungspartner",
+    "gle": "An Ostair – Software implementation services – Kentico CMS Implementierungspartner",
+    "ell": "Αυστρία – Υπηρεσίες υλοποίησης λογισμικού – Kentico CMS Implementierungspartner",
+    "spa": "Austria – Servicios de implementación de software – Kentico CMS Implementierungspartner",
+    "est": "Austria – Tarkvara rakendusteenused – Kentico CMS Implementierungspartner",
+    "nld": "Oostenrijk – Software-implementatiediensten – Kentico CMS Implementierungspartner",
+    "fin": "Itävalta – Ohjelmiston toteutuspalvelut – Kentico CMS Implementierungspartner",
+    "pol": "Austria – Usługi wdrażania oprogramowania – Kentico CMS Implementierungspartner",
+    "hrv": "Austrija – Usluge izvođenja programske podrške – Kentico CMS Implementierungspartner",
+    "ces": "Rakousko – Implementace programového vybavení – Kentico CMS Implementierungspartner",
+    "dan": "Østrig – Implementering af programmel – Kentico CMS Implementierungspartner",
+    "ron": "Austria – Servicii de aplicare de software – Kentico CMS Implementierungspartner",
+    "por": "Áustria – Serviços de implementação de software – Kentico CMS Implementierungspartner",
+    "slk": "Rakúsko – Implementácia softvéru – Kentico CMS Implementierungspartner",
+    "fra": "Autriche – Services d'implémentation de logiciels – Kentico CMS Implementierungspartner",
+    "mlt": "L-Awstrija – Servizzi ta' l-implimentazzjoni tas-software – Kentico CMS Implementierungspartner",
+    "deu": "Österreich – Software-Implementierung – Kentico CMS Implementierungspartner",
+    "lit": "Austrija – Programinės įrangos diegimo paslaugos – Kentico CMS Implementierungspartner",
+    "ita": "Austria – Servizi di implementazione di software – Kentico CMS Implementierungspartner",
+    "bul": "Aвcтpия – Услуги по инсталиране на софтуерни продукти – Kentico CMS Implementierungspartner",
+    "slv": "Avstrija – Storitve izvajanja programske opreme – Kentico CMS Implementierungspartner",
+    "eng": "Austria – Software implementation services – Kentico CMS Implementierungspartner"
+   },
+   "buyer-city": {
+    "mul": [
+     "Klagenfurt"
+    ]
+   }
+  }
+ ],
+ "totalNoticeCount": 24,
+ "iterationNextToken": null,
+ "timedOut": false
+}
