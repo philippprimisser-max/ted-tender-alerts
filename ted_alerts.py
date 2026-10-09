@@ -16,6 +16,7 @@ import hashlib
 import html
 import json
 import os
+import random
 import smtplib
 import sys
 import time
@@ -71,14 +72,32 @@ def build_query(cpv: list[str], countries: list[str], keywords: list[str], days:
 
 # ---------------------------------------------------------------- API
 
-def post_json(url: str, body: dict, retries: int = 4) -> dict:
+def _retry_after(exc: urllib.error.HTTPError) -> float | None:
+    """Seconds from a Retry-After header (numeric form only), if the server sent one."""
+    value = exc.headers.get("Retry-After") if exc.headers is not None else None
+    try:
+        return max(0.0, float(value)) if value is not None else None
+    except (TypeError, ValueError):
+        return None
+
+
+def backoff_delay(attempt: int, retry_after: float | None = None, cap: float = 60.0) -> float:
+    """Exponential backoff with full jitter (2, 4, 8, 16 s ... capped); a Retry-After header wins."""
+    if retry_after is not None:
+        return min(retry_after, cap)
+    return random.uniform(0, min(2 ** attempt * 2, cap))
+
+
+def post_json(url: str, body: dict, retries: int = 4, sleep=time.sleep, opener=urllib.request.urlopen) -> dict:
+    """POST with retries on 429, 5xx and network errors. 400 and other 4xx fail at once."""
     data = json.dumps(body).encode()
     last = ""
     for attempt in range(retries + 1):
         req = urllib.request.Request(url, data=data, method="POST", headers={
             "Content-Type": "application/json", "Accept": "application/json", "User-Agent": USER_AGENT})
+        wait_hint = None
         try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
+            with opener(req, timeout=60) as resp:
                 return json.loads(resp.read())
         except urllib.error.HTTPError as exc:
             text = exc.read().decode("utf-8", "replace")[:300]
@@ -87,23 +106,33 @@ def post_json(url: str, body: dict, retries: int = 4) -> dict:
                 raise TedError(f"TED rejected the query ({last})") from exc
             if exc.code != 429 and exc.code < 500:
                 raise TedError(f"TED search failed ({last})") from exc
+            wait_hint = _retry_after(exc)
         except urllib.error.URLError as exc:
             last = f"network error: {exc.reason}"
+        except (TimeoutError, json.JSONDecodeError) as exc:
+            last = f"{type(exc).__name__}: {exc}"
         if attempt < retries:
-            time.sleep(min(2 ** attempt * 2, 30))
+            delay = backoff_delay(attempt, wait_hint)
+            print(f"TED: {last.splitlines()[0][:120]}; retry {attempt + 1}/{retries} in {delay:.1f} s", file=sys.stderr)
+            sleep(delay)
     raise TedError(f"TED search failed after {retries + 1} attempts ({last})")
 
 
-def search(query: str, max_pages: int = 20, poster=post_json) -> list[dict]:
-    notices = []
+def search(query: str, max_pages: int = 20, poster=post_json, sleep=time.sleep) -> list[dict]:
+    notices, total = [], 0
     for page in range(1, max_pages + 1):
         res = poster(API_URL, {"query": query, "fields": FIELDS, "page": page, "limit": PAGE_SIZE,
                                "paginationMode": "PAGE_NUMBER", "scope": "ALL"})
         batch = res.get("notices") or []
+        total = int(res.get("totalNoticeCount") or 0)
         notices.extend(batch)
-        if len(batch) < PAGE_SIZE or len(notices) >= int(res.get("totalNoticeCount") or 0):
+        if len(batch) < PAGE_SIZE or len(notices) >= total:
             break
-        time.sleep(0.5)  # be gentle; TED's fair-use limit is far higher
+        if page < max_pages:
+            sleep(0.5)  # ~120 requests/min at most; TED's fair-use limit is 700/min
+    if total > len(notices):
+        print(f"Warning: TED reports {total} matches, fetched {len(notices)} (newest first, --max-pages {max_pages}). "
+              "Narrow the query or raise --max-pages if you need all of them.", file=sys.stderr)
     return notices
 
 
@@ -163,9 +192,16 @@ def normalize(n: dict, lang: str = "en", today: date | None = None) -> dict:
 # ---------------------------------------------------------------- state
 
 def load_state(path: Path) -> dict:
-    if path.is_file():
-        return json.loads(path.read_text(encoding="utf-8"))
-    return {"seen": {}, "recent": []}
+    if not path.is_file():
+        return {"seen": {}, "recent": []}
+    try:
+        state = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        # Never silently start from an empty state: that would re-send every alert.
+        raise TedError(f"State file {path} is not valid JSON ({exc}). Fix or delete it.") from exc
+    state.setdefault("seen", {})
+    state.setdefault("recent", [])
+    return state
 
 
 def save_state(path: Path, state: dict, keep_days: int = 120) -> None:
@@ -250,11 +286,15 @@ def send_email(items: list[dict], subject: str) -> None:
                    f"{html.escape(i['buyer'])} · {html.escape(i['country'])} · {html.escape(money(i))} · "
                    f"deadline {html.escape(i['deadline'] or 'n/a')}</li>" for i in items)
     msg.add_alternative(f"<ul>{rows}</ul><p style='color:#666'>{html.escape(ATTRIBUTION)}</p>", subtype="html")
-    with smtplib.SMTP(host, int(os.environ.get("SMTP_PORT", "587")), timeout=60) as s:
-        s.starttls()
-        if os.environ.get("SMTP_USER"):
-            s.login(os.environ["SMTP_USER"], os.environ.get("SMTP_PASSWORD", ""))
-        s.send_message(msg)
+    try:
+        with smtplib.SMTP(host, int(os.environ.get("SMTP_PORT", "587")), timeout=60) as s:
+            s.starttls()
+            if os.environ.get("SMTP_USER"):
+                s.login(os.environ["SMTP_USER"], os.environ.get("SMTP_PASSWORD", ""))
+            s.send_message(msg)
+    except (smtplib.SMTPException, OSError) as exc:
+        # The state is saved only after a successful send, so the next run tries these notices again.
+        raise TedError(f"E-mail failed ({type(exc).__name__}: {exc}); state not updated, next run retries.") from exc
 
 
 # ---------------------------------------------------------------- CLI

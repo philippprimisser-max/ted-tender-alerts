@@ -66,3 +66,105 @@ def test_email_requires_env(tmp_path, monkeypatch, capsys):
 def test_live_api(tmp_path):
     assert t.main(["--cpv", "72", "--country", "AUT", "--days", "14", "--max-pages", "1",
                    "--state", str(tmp_path / "s.json")]) == 0
+
+
+# ---------------------------------------------------------------- retries, pagination, state
+
+import io
+import smtplib
+import urllib.error
+
+
+class _Resp(io.BytesIO):
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *a):
+        return False
+
+
+def _http_error(code, retry_after=None):
+    headers = {"Retry-After": str(retry_after)} if retry_after is not None else {}
+    import email.message
+    msg = email.message.Message()
+    for k, v in headers.items():
+        msg[k] = v
+    return urllib.error.HTTPError(t.API_URL, code, "err", msg, io.BytesIO(b"boom"))
+
+
+def _opener(script):
+    """Returns an opener that raises/returns the items of `script` in order."""
+    calls = []
+
+    def opener(req, timeout):
+        item = script[len(calls)]
+        calls.append(item)
+        if isinstance(item, Exception):
+            raise item
+        return _Resp(json.dumps(item).encode())
+    opener.calls = calls
+    return opener
+
+
+def test_retry_on_429_and_500_with_backoff():
+    slept = []
+    op = _opener([_http_error(500), _http_error(429, retry_after=7), {"notices": [], "totalNoticeCount": 0}])
+    assert t.post_json(t.API_URL, {}, sleep=slept.append, opener=op) == {"notices": [], "totalNoticeCount": 0}
+    assert len(op.calls) == 3
+    assert 0 <= slept[0] <= 2          # first backoff: jitter in [0, 2] s
+    assert slept[1] == 7               # Retry-After wins
+
+
+def test_retry_gives_up_and_400_fails_fast():
+    slept = []
+    op = _opener([_http_error(503)] * 5)
+    with pytest.raises(t.TedError, match="after 5 attempts"):
+        t.post_json(t.API_URL, {}, retries=4, sleep=slept.append, opener=op)
+    assert len(slept) == 4 and all(d <= 60 for d in slept)
+    op = _opener([_http_error(400)])
+    with pytest.raises(t.TedError, match="rejected"):
+        t.post_json(t.API_URL, {}, sleep=slept.append, opener=op)
+    assert len(op.calls) == 1
+
+
+def test_backoff_delay_caps():
+    assert all(0 <= t.backoff_delay(10) <= 60 for _ in range(50))
+    assert t.backoff_delay(0, retry_after=500) == 60
+
+
+def test_pagination_stops_and_warns_when_truncated(capsys):
+    pages = []
+
+    def poster(url, body):
+        pages.append(body["page"])
+        return {"notices": [{"publication-number": f"{body['page']}-{i}"} for i in range(t.PAGE_SIZE)],
+                "totalNoticeCount": 5000}
+    out = t.search("q", max_pages=3, poster=poster, sleep=lambda s: None)
+    assert pages == [1, 2, 3] and len(out) == 3 * t.PAGE_SIZE
+    assert "TED reports 5000 matches, fetched 300" in capsys.readouterr().err
+
+
+def test_seen_ids_survive_restart_and_failed_email_is_retried(tmp_path, monkeypatch, capsys):
+    state = tmp_path / "s.json"
+    monkeypatch.setenv("SMTP_HOST", "localhost")
+    monkeypatch.setenv("MAIL_TO", "me@example.com")
+
+    def broken_smtp(*a, **k):
+        raise smtplib.SMTPConnectError(421, "down")
+    monkeypatch.setattr(t.smtplib, "SMTP", broken_smtp)
+    assert t.main(["--cpv", "72", "--state", str(state), "--email"], poster=fake_poster) == 2
+    assert not state.exists()           # nothing marked as seen, next run retries
+    monkeypatch.setattr(t, "send_email", lambda items, subject: None)
+    n = len(FIX["notices"])
+    assert t.main(["--cpv", "72", "--state", str(state), "--email"], poster=fake_poster) == 0
+    assert set(json.loads(state.read_text())["seen"]) == {x["publication-number"] for x in FIX["notices"]}
+    capsys.readouterr()
+    assert t.main(["--cpv", "72", "--state", str(state)], poster=fake_poster) == 0   # "restart"
+    assert f"{n} matching notices, 0 new." in capsys.readouterr().err
+
+
+def test_corrupt_state_stops_instead_of_resending(tmp_path, capsys):
+    state = tmp_path / "s.json"
+    state.write_text("{not json")
+    assert t.main(["--cpv", "72", "--state", str(state)], poster=fake_poster) == 2
+    assert "not valid JSON" in capsys.readouterr().err

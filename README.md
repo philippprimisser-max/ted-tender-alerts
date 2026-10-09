@@ -94,7 +94,9 @@ CPV is the EU's procurement vocabulary. Look at five tenders you would have bid 
 
 - The search is done by the TED API itself, so results are the same as TED's expert search with that query.
 - Some notices have no estimated value or no deadline in the structured data; the notice itself (link) has the details.
-- The script is gentle with the API: it pauses 0.5 s between result pages and stops after 20 pages (100 notices each) by default (`--max-pages`).
+- The script is gentle with the API: it pauses 0.5 s between result pages (TED's fair-use limit is 700 requests per minute) and stops after 20 pages (100 notices each) by default (`--max-pages`). If TED reports more matches than were fetched, it prints a warning.
+- HTTP 429, 5xx and network errors are retried up to 4 times with exponential backoff and jitter; a `Retry-After` header from TED is respected. Other 4xx errors fail at once.
+- New notices are only marked as seen after all outputs (including `--email`) succeeded, so a failed run is retried on the next run instead of being lost. A corrupt state file stops the run instead of re-sending everything.
 - Data: TED – Tenders Electronic Daily, © European Union. Notices may be reused free of charge with attribution ([TED legal notice](https://ted.europa.eu/en/legal-notice)). The script adds the attribution line to every output.
 
 ## Tests
